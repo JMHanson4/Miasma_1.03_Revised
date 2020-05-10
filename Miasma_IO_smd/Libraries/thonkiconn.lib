@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# WQP-PJ301M-12_JACK
+#
+DEF WQP-PJ301M-12_JACK U 0 40 Y N 1 L N
+F0 "U" -100 160 50 H V L BNN
+F1 "WQP-PJ301M-12_JACK" -100 -240 50 H V L BNN
+F2 "WQP-PJ301M-12_JACK" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 -100 100 0 100 N
+P 2 0 0 6 0 100 60 40 N
+P 2 0 0 6 60 40 90 70 N
+P 2 0 0 6 -100 0 -30 0 N
+P 2 0 0 6 -30 0 -30 90 N
+P 2 0 0 10 -30 90 -40 60 N
+P 2 0 0 10 -40 60 -20 60 N
+P 2 0 0 10 -20 60 -30 90 N
+P 2 0 0 6 -100 -100 180 -100 N
+P 4 0 0 0 90 20 310 20 310 -20 90 -20 F
+X 1 P$3 -200 -100 100 R 40 40 0 0 P 
+X 2 P$1 -200 100 100 R 40 40 0 0 P 
+X 3 P$2 -200 0 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

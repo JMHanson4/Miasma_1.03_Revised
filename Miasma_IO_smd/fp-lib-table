@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name thonkiconn)(type Eagle)(uri ${KIPRJMOD}/Libraries/thonkiconn.lbr)(options "")(descr ""))
+  (lib (name Libraries)(type KiCad)(uri ${KIPRJMOD}/Libraries)(options "")(descr ""))
+)

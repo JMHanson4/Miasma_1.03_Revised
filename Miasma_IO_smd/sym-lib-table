@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Bourns_3362P)(type Legacy)(uri ${KIPRJMOD}/Libraries/Bourns_3362P.lib)(options "")(descr ""))
+  (lib (name thonkiconn)(type Legacy)(uri ${KIPRJMOD}/Libraries/thonkiconn.lib)(options "")(descr ""))
+)

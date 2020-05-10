@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# AD633
+#
+DEF AD633 U 0 40 Y N 2 L N
+F0 "U" -300 430 50 H V L BNN
+F1 "AD633" -300 -500 50 H V L BNN
+$FPLIST
+ DIL-08
+ SO-08
+$ENDFPLIST
+DRAW
+P 2 1 0 10 -300 400 -300 -400 N
+P 2 1 0 10 -300 -400 300 -400 N
+P 2 1 0 10 300 -400 300 400 N
+P 2 1 0 10 300 400 -300 400 N
+X Y1 1 -500 300 200 R 40 40 1 0 I 
+X Y2 2 -500 100 200 R 40 40 1 0 I 
+X Z 4 -500 -300 200 R 40 40 1 0 I 
+X X2 8 500 300 200 L 40 40 1 0 I 
+X X1 7 500 100 200 L 40 40 1 0 I 
+X W 5 500 -300 200 L 40 40 1 0 O 
+T 900 50 125 32 0 0 0 V+ Normal 0 L B
+T 900 50 -175 32 0 0 0 V- Normal 0 L B
+X V+ 6 0 300 200 D 40 40 2 0 W 
+X V- 3 0 -300 200 U 40 40 2 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
