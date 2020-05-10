@@ -2,7 +2,7 @@
 
 The changes from version 1.03 are:
 
-1) Updating the footprints and symbols to ones included in KiCAD 5.1.5, or otherwise including the auxillary libraries in the repository.
+1) Updated the footprints and symbols to ones included in KiCAD 5.1.5, or otherwise included the auxillary libraries in the repository.
 
 2) Made the 4QX output no longer inverted and added a jumper pin on the back that allows you to switch between (non-inverted) summing and 4QX modes.
 
@@ -12,6 +12,6 @@ The changes from version 1.03 are:
 
 5) Small tweaks such as adjusting track spacing, etc.
 
-# Acknowledgements:
+# Acknowledgements
 
 Original Miasma board by Sin Phi http://www.sinphi.com/synths/miasma/miasma.html, based on the Befaco Rampage http://www.befaco.org/rampage-2/. 4QX and diode mods inspired by Mcop http://www.mcop.co.uk/diy/mods-and-stripboard-layouts/miasma-function-generator-modifications/.
