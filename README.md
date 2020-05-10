@@ -11,3 +11,7 @@ The changes from version 1.03 are:
 4) Fixed the EOC2 output from not being grounded.
 
 5) Small tweaks such as adjusting track spacing, etc.
+
+# Acknowledgements:
+
+Original Miasma board by Sin Phi http://www.sinphi.com/synths/miasma/miasma.html, based on the Befaco Rampage http://www.befaco.org/rampage-2/. 4QX and diode mods inspired by Mcop http://www.mcop.co.uk/diy/mods-and-stripboard-layouts/miasma-function-generator-modifications/.
