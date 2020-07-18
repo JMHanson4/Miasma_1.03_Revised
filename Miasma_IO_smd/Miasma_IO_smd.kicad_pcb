@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 10)
+    (drawings 12)
     (tracks 906)
     (zones 0)
     (modules 137)
@@ -86,7 +86,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "BOM and CPL/"))
+      (outputdirectory "Gerbers/"))
   )
 
   (net 0 "")
@@ -5405,6 +5405,12 @@
     )
   )
 
+  (gr_text "ON=Auto Cyc\nOFF=Trig Req" (at 162.5 119) (layer B.SilkS) (tstamp 5F135D70)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text "ON=Auto Cyc\nOFF=Trig Req" (at 129.5 119) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_arc (start 99.06 152.4) (end 99.06 154.94) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 193.04 152.4) (end 195.58 152.4) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 193.04 58.42) (end 193.04 55.88) (angle 90) (layer Edge.Cuts) (width 0.1))
@@ -6345,7 +6351,7 @@
   (segment (start 139.7 135.97) (end 142.24 135.97) (width 0.381) (layer B.Cu) (net 120) (status 30))
   (segment (start 139.7 138.43) (end 139.7 135.97) (width 0.381) (layer B.Cu) (net 120) (status 30))
 
-  (zone (net 97) (net_name GND) (layer B.Cu) (tstamp 5EB7A94B) (hatch edge 0.508)
+  (zone (net 97) (net_name GND) (layer B.Cu) (tstamp 5F1360D1) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -8839,7 +8845,7 @@
       )
     )
   )
-  (zone (net 97) (net_name GND) (layer F.Cu) (tstamp 5EB7A948) (hatch edge 0.508)
+  (zone (net 97) (net_name GND) (layer F.Cu) (tstamp 5F1360CE) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
