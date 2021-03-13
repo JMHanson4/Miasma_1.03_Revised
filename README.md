@@ -1,5 +1,7 @@
 # Miasma_1.03_Revised
 
+Note: use the BOM included in this repository. Some of the components have been relabelled in this revision so the BOM on SinPhi's website is no longer current.
+
 The changes from version 1.03 are:
 
 1) Updated the footprints and symbols to ones included in KiCAD 5.1.5, or otherwise included the auxillary libraries in the repository.
