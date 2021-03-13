@@ -14,6 +14,8 @@ The changes from version 1.03 are:
 
 5) Small tweaks such as adjusting track spacing, etc.
 
+To do: the resistor in the feedback loop of the 4QX output amp (R67) should be shorted (solder bridge), not 220k. The purpose is to make this output stage a unity gain buffer instead of an amplifier; the 220k will cause the output to clip before the signal peak is reached. If you aren't using the 4QX feature then this is irrelevant.
+
 # Acknowledgements
 
 Original Miasma board by Sin Phi http://www.sinphi.com/synths/miasma/miasma.html, based on the Befaco Rampage http://www.befaco.org/rampage-2/. 4QX and diode mods inspired by Mcop http://www.mcop.co.uk/diy/mods-and-stripboard-layouts/miasma-function-generator-modifications/.
